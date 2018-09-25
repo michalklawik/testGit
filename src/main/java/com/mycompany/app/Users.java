@@ -1,14 +1,19 @@
 package com.mycompany.app;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
 public class Users {
 
-    List<User> users;
+    List<User> users = new ArrayList<>();
 
     public void addUser(User user) {
         users.add(user);
+    }
+
+    public int getUsersNumber(){
+        return users.size();
     }
 
     public void printUsers() {
