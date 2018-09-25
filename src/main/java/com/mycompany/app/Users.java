@@ -9,7 +9,7 @@ public class Users {
     List<User> users = new ArrayList<>();
 
     public void addUser(User user) {
-        users.add(user);
+        this.users.add(user);
     }
 
     public int getUsersNumber(){
@@ -17,7 +17,7 @@ public class Users {
     }
 
     public void printUsers() {
-        System.out.println(users);
+        System.out.println(this.users);
     }
 
     public List<User> getUsers() {
