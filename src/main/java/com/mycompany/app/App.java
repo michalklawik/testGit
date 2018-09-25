@@ -8,6 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "TEXT2!" );
+        User user = new User("Adam", "Kowalski");
+        System.out.println(user);
     }
 }
