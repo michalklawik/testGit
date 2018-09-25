@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class User {
 
-    int id;
-    String name;
-    String surName;
+    private int id;
+    private String name;
+    private String surName;
 
     public User(int id, String name, String surName) {
         this.id = id;

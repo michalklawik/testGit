@@ -17,7 +17,9 @@ public class Users {
     }
 
     public void printUsers() {
-        System.out.println(this.users);
+        users.forEach(s ->
+            System.out.println(s.getId() + ". " + s.getName() + " " + s.getSurName())
+        );
     }
 
     public List<User> getUsers() {
